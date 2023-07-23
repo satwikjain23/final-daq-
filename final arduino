@@ -247,7 +247,7 @@ void loop()
 
     if (Packet_id == 1){
       String dc = hex1 + hex2;
-      mcdccurrent = hexToDec(dc);
+      mcdccurrent = hexToDec(dc)/10.0;
     }
 
     //BMS CODE
